@@ -81,9 +81,9 @@ void FWindowsWindow::Initialize( FWindowsApplication* const Application, const T
 		else if( Definition->TransparencySupport == EWindowTransparency::PerPixel )
 		{
 			if( bApplicationSupportsPerPixelBlending )
-			{
+			/*{
 				WindowExStyle |= WS_EX_COMPOSITED;
-			}
+			}*/
 		}
 #endif
 
